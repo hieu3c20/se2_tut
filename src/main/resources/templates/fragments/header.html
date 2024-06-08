@@ -1,0 +1,26 @@
+<header th:fragment="header">
+  <nav>
+    <ul style="list-style: none; color: #3a2e2e; display: flex; align-items: center; margin: 0; padding: 0;">
+      <li style="display: flex; justify-content: center; align-items: center; width: 80px; height: 80px; background-color: #fff;">
+        <a th:href="@{/}" style="display: block; text-decoration: none; transition: all 0.3s ease;">
+          <img th:src="@{/image/logo-full.png}" alt="HidStudi" />
+        </a>
+      </li>
+      <li style="display: flex; justify-content: center; align-items: center; width: 80px; height: 80px; background-color: #fff;">
+        <a th:href="@{/}" style="color: #3a2e2e; text-decoration: none; transition: all 0.3s ease;">
+          Home
+        </a>
+      </li>
+      <li style="display: flex; justify-content: center; align-items: center; width: 80px; height: 80px; background-color: #fff;">
+        <a th:href="@{/}" style="color: #3a2e2e; text-decoration: none; transition: all 0.3s ease;">
+          About
+        </a>
+      </li>
+      <li style="display: flex; justify-content: center; align-items: center; width: 80px; height: 80px; background-color: #fff;">
+        <a th:href="@{/}" style="color: #3a2e2e; text-decoration: none; transition: all 0.3s ease;">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
